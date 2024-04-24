@@ -1,5 +1,5 @@
 type GreetingProps = {
-  name: string;
+  name?: string;
 };
 
 export const Greeting = ({ name = 'World' }: GreetingProps) => {
